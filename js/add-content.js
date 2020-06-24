@@ -36,10 +36,10 @@ function userOrder() {
   var userWant = prompt('what do you want to order house or hotel ?');
   if (userWant === 'house') {
     //code
-    document.write('<img id="block" src="../images/house.png">');
+    document.write('<img id="block" src="images/house.png">');
   } else if (userWant === 'hotel') {
     //code
-    document.write('<p><img src="../images/hotel.png"></p>');
+    document.write('<p><img src="images/hotel.png"></p>');
   }
 
 }
